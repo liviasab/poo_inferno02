@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Agencia-Bancaria-com-Persistencia_POO-main/aula.orientacao.enumarator/src"/>
+	<classpathentry kind="output" path="Agencia-Bancaria-com-Persistencia_POO-main/aula.orientacao.enumarator/bin"/>
+</classpath>

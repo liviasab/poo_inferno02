@@ -1,0 +1,98 @@
+!SESSION 2023-11-18 01:53:56.266 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -javaagent:/home/jack/.config/vim-easycomplete/servers/java/lombok.jar --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -XX:+AggressiveOpts -XX:PermSize=512m -XX:MaxPermSize=512m -Xmx2048m -Xms512m -Xmn512m -Xss2m -XX:+UseG1GC -XX:+UseLargePages
+Command-line arguments:  -data ./ -javaagent:/home/jack/.config/vim-easycomplete/servers/java/lombok.jar --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -XX:+AggressiveOpts -XX:PermSize=512m -XX:MaxPermSize=512m -Xmx2048m -Xms512m -Xmn512m -Xss2m -XX:+UseG1GC -XX:+UseLargePages
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:53:59.964
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:00.313
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:00.350
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:00.351
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:00.354
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-18 01:54:00.356
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences.isWorkspaceChangeWatchedFilesDynamicRegistered()" because the return value of "org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager.getClientPreferences()" is null
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.registerWatchers(StandardProjectsManager.java:424)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:18.751
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:18.752
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 01:54:18.752
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-18 01:54:18.753
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences.isWorkspaceChangeWatchedFilesDynamicRegistered()" because the return value of "org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager.getClientPreferences()" is null
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.registerWatchers(StandardProjectsManager.java:424)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:04:00.286
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:04:00.287
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:04:00.288
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-18 02:04:00.288
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences.isWorkspaceChangeWatchedFilesDynamicRegistered()" because the return value of "org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager.getClientPreferences()" is null
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.registerWatchers(StandardProjectsManager.java:424)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:27:41.833
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:27:41.834
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:27:41.835
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-18 02:27:41.835
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences.isWorkspaceChangeWatchedFilesDynamicRegistered()" because the return value of "org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager.getClientPreferences()" is null
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.registerWatchers(StandardProjectsManager.java:424)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:50:54.987
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:50:54.988
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-18 02:50:54.989
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-18 02:50:54.989
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences.isWorkspaceChangeWatchedFilesDynamicRegistered()" because the return value of "org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager.getClientPreferences()" is null
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.registerWatchers(StandardProjectsManager.java:424)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

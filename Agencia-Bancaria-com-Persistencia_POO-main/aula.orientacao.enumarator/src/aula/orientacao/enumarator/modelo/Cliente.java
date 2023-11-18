@@ -94,5 +94,7 @@ public class Cliente implements Serializable {
     public ArrayList<Conta> getContas() {
 		return contas;
     }
+
+	
     
 }
